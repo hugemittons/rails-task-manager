@@ -1,2 +1,5 @@
-<h1>Tasks#show</h1>
-<p>Find me in app/views/tasks/show.html.erb</p>
+<p><h2><%= @task.details%></h2></p>
+
+<p>created at <%= @task.created_at %></p>
+<br /><br />
+<%= link_to "back to task manager", tasks_path, class: "back" %>
